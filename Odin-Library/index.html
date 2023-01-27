@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>Project: Odin Library | The Odin Project</title>
+</head>
+<body>    
+  <div class="container">
+    <header><h1>The Odin Libary</h1>
+    </header>
+    <nav>
+      <button id="add_book">Add Book</button>
+    </nav>
+    <section>
+      <form>
+        <label for="book_title">Book Title: *</label>
+        <input type="text" id="book_title" name="book_title" placeholder="Horus Rising" required>
+        <label for="book_author">Book Author: *</label>
+        <input type="text" id="book_author" name="book_author" placeholder="Dan Abnett" required>
+        <label for="book_pages"># of Pages: *</label>
+        <input type="number" name="book_pages" id="book_pages" placeholder="412" required>
+        <label for="book_read">Read? *</label>
+        <select name="book_read" id="book_read" required>
+          <option value="">Please Choose One</option>
+          <option value="1">Yes</option>
+          <option value='0'>No</option>
+        </select>
+        <input type="button" value="Submit" id="form_button">
+      </form>
+    </section>
+    <main></main>
+  </div>
+</body>
+</html>
